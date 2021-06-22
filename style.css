@@ -7,6 +7,10 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+    background: rgb(235, 235, 235);
+}
+
 /* 
 .navbar {
     height: 80px;
@@ -20,20 +24,14 @@
 .navbar_container {
     display: flex;
     height: 80px;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #0a6e55;
 }
 
 #navbar_logo {
-    background-color: #fff;
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +41,9 @@
     font-weight: 900;
     text-align: center;
     width: 100%;
+    color: #0a6e55;
+    padding-top: 15px;
+
 }
 
 /* 
@@ -203,9 +204,10 @@
 
 /* Hero Section */
 .main {
-
+    margin-top: -10px;
+    ;
     background-size: cover;
-    background-image: url(images/hero-bg.jpg);
+    background-image: url(images/hero-bg.svg);
 }
 
 .main_container {
@@ -215,17 +217,17 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    z-index: 1;
     width: 100%;
-
     padding: 0 50px;
     padding-bottom: 850px;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.9054972330729166) 0%, rgba(255, 255, 255, 0) 100%);
+    margin-top: 0;
+    /* background: linear-gradient(270deg, rgba(0, 0, 0, 0.9054972330729166) 0%, rgba(255, 255, 255, 0) 100%); */
 
 }
 
 .main_content h1 {
     font-size: 7rem;
+    /* background-color: #0a6e55; */
     background-color: #fff;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -648,4 +650,5 @@ section .navigation li img:hover {
     font-family: 'Rancho',
         cursive;
     font-size: 3em;
+    color: #0a6e55;
 }

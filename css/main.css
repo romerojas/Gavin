@@ -151,9 +151,6 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-	background: #242629;
-}
 
 body.is-preload *,
 body.is-preload *:before,
